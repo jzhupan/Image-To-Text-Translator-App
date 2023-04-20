@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script defer src="https://cdn.crop.guide/loader/l.js?c=PVGMTJ"></script>
+    <script defer src="./client.js"></script>
+    <script defer src="../back-end/public/imageController.js"></script>
+   
+
+    <title>Webtoon Translator App</title>
+  </head>
+
+  <body>
+    <div class="container center">
+        <div class="header">
+            <h2>Image Translator</h2>
+            <div class="server-message"></div>
+        </div>
+        <br>
+      <!-- Multer adds a body object and a file object to the request object, objects will contain the values of text fields, file objects will contain the files uploaded via the form. This is the basic usage example -->
+      <form action"http://localhost:3001/Upload" method="POST" enctype="multipart/form-data">
+      <input type="file" id="imageUploadControl" accept="image/jpeg, image/png, image/jpg" name="image">
+      <button class="button" id="deleteButton" type="reset">Delete</button>
+      <input type="submit" value="Upload">
+      <br>
+          <div class="imageContainer">
+            <img src="" id="preview">
+          </div>
+          <br>
+
+      </form>
+    
+      <div id="translationBoxes">
+        <div class="row">
+            <div class="col-sm-6">
+                
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title" id="recognizedTextBox">Recognized Text</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="input-group mb-3">
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title" id="resultsTextBox">Results</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+  </body>
+  
+</html>

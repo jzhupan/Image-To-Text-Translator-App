@@ -1,0 +1,44 @@
+#websiteTitle{
+    text-align: center;
+}
+.container{
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+    padding: 5%;
+    padding-top: 1%;
+    margin: 1% 0 1% 0;
+}
+
+.center{
+    text-align: center;
+    max-width: 100%;
+
+}
+.imageContainer{
+   margin: auto;
+    border: solid white;
+}
+
+#preview{
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.card{
+    margin: 1% 0 1% 0
+    height: 150px;
+    color: black;
+}
+
+
+#translationBoxes{
+    margin: 20px 10px 20px 10px;
+}
+
+#dropDownButtons{
+    margin: 0 0 10px 0;
+}
+
+.button {
+    margin: 1% 1% 1% 1%;
+}
