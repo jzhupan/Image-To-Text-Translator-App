@@ -15,7 +15,7 @@
 
 }
 .imageContainer{
-   margin: auto;
+    margin: 1% 1% 1% 1%;
     border: solid white;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .card{
-    margin: 1% 0 1% 0
+    margin: 1% 1% 1% 1%;
     height: 150px;
     color: black;
 }

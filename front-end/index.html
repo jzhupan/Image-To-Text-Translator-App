@@ -13,9 +13,7 @@
     />
     <script defer src="https://cdn.crop.guide/loader/l.js?c=PVGMTJ"></script>
     <script defer src="./client.js"></script>
-    <script defer src="../back-end/public/imageController.js"></script>
    
-
     <title>Webtoon Translator App</title>
   </head>
 
@@ -26,19 +24,22 @@
             <div class="server-message"></div>
         </div>
         <br>
-      <!-- Multer adds a body object and a file object to the request object, objects will contain the values of text fields, file objects will contain the files uploaded via the form. This is the basic usage example -->
-      <form action"http://localhost:3001/Upload" method="POST" enctype="multipart/form-data">
-      <input type="file" id="imageUploadControl" accept="image/jpeg, image/png, image/jpg" name="image">
-      <button class="button" id="deleteButton" type="reset">Delete</button>
-      <input type="submit" value="Upload">
+
+      <input type="file" id="imageInput" accept="image/jpeg, image/png, image/jpg" name="image">
+
+      <input type="button" onclick="sendImageToBackend()" value="Upload">
+
+      <label for="languageInput">Language:</label>
+      <select name="language" id="languageInput">
+        <option value="kor">Korean</option>
+      </select>
+
       <br>
           <div class="imageContainer">
             <img src="" id="preview">
           </div>
           <br>
 
-      </form>
-    
       <div id="translationBoxes">
         <div class="row">
             <div class="col-sm-6">
@@ -46,22 +47,26 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title" id="recognizedTextBox">Recognized Text</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text" id="recognizedText">
+                    <!-- Extracted Text Displays Here -->
+                    그 렇 지만줄 곧 기 대 했 는 걸 .
+                  </p>
                 </div>
-                
               </div>
+
+              <input type="button" class="actionButton" id="translateButton" onclick="" value="Translate">
+
             </div>
 
             <div class="col-sm-6">
-                <div class="input-group mb-3">
 
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title" id="resultsTextBox">Results</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text" id="translatedText">Translated Text Displays Here</p>
                 </div>
-              </div>
             </div>
+            <button type="submit" onclick="refreshPage()" id="deleteButton">Restart</button>
           </div>
       </div>
 
