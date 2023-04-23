@@ -42,14 +42,20 @@ function sendImageToBackend() {
 
     let formData = new FormData();
 
+    // {
+    //     "image": image.files[0]
+    // }
+
     formData.append("image", image.files[0])
     formData.append("language", language.value)
-
+    
+    //creating options for POST request
     const options = {
         method: "POST",
         body: formData
     }
-  //This little piece of trouble will grab the Tesseract data and eventually display the text at the front-end
+
+    //MADE A POST REQUEST WITH FETCH SENDING ..Made a post request with fetch sending the image to backend and retrieving the text
     fetch("http://localhost:3001/upload", options)
     //Grabbing the back-end text and convert it to json data
         .then(response => response.json()
@@ -63,29 +69,33 @@ function sendImageToBackend() {
 translateButton.addEventListener('click', function (){
     sendRecognizedTextToBackend(this)
 })
-
+//SENDING RECOGNIZED TEXT TO BACKEND
 function sendRecognizedTextToBackend() {
     let recognizedText = document.getElementById('recognizedText').innerHTML
-    console.log(recognizedText)
+    //console.log(recognizedText)
     let translatedText = document.getElementById('translatedText')
-    console.log(translatedText)
+    //console.log(translatedText)
+    let language = document.getElementById("languageInput")
+    let languageSource = language.value
 
-    let formData = new FormData();
-
-    formData.append("recognizedText", recognizedText)
-    formData.append("translatedText", translatedText.innerHTML)
+    if(language.value == 'kor'){
+        languageSource = "ko"
+    }
 
     const options = {
         method: "POST",
-        body: formData
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ 
+            "recognizeText": recognizedText,
+            "languageSource": languageSource
+         }),
     }
 
-    fetch("http://localhost:3001/translation", options)
+    fetch("http://localhost:3001/translate", options)
     //Grabbing the back-end text and convert it to json data
         .then(response => response.json()
             .then(data => {
-                console.log(typeof data, data)
-                document.getElementById("recognizedText").innerHTML = data.recognizedText;
+                translatedText.innerHTML = data.translatedText
             }))
 }
 

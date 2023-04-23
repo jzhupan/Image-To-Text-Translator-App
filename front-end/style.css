@@ -1,12 +1,13 @@
+
 #websiteTitle{
     text-align: center;
 }
 .container{
     background-color: rgb(39, 39, 39);
-    color: aliceblue;
+    color: white;
     padding: 5%;
     padding-top: 1%;
-    margin: 1% 0 1% 0;
+    margin: 5% 0 1% 0;
 }
 
 .center{
@@ -39,6 +40,8 @@
     margin: 0 0 10px 0;
 }
 
-.button {
+
+.buttons {
     margin: 1% 1% 1% 1%;
+    border: solid 0%;
 }

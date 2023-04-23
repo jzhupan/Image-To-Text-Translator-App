@@ -11,9 +11,9 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <script defer src="https://cdn.crop.guide/loader/l.js?c=PVGMTJ"></script>
+    <script defer src="https://cdn.crop.guide/loader/l.js?c=JWTYTV"></script>
     <script defer src="./client.js"></script>
-   
+   <script defer src="../back-end/server.js"></script>
     <title>Webtoon Translator App</title>
   </head>
 
@@ -25,9 +25,9 @@
         </div>
         <br>
 
-      <input type="file" id="imageInput" accept="image/jpeg, image/png, image/jpg" name="image">
+      <input type="file" class="buttons" id="imageInput" accept="image/jpeg, image/png, image/jpg" name="image">
 
-      <input type="button" onclick="sendImageToBackend()" value="Upload">
+      <input type="button" class="buttons" onclick="sendImageToBackend();" value="Upload">
 
       <label for="languageInput">Language:</label>
       <select name="language" id="languageInput">
@@ -47,14 +47,11 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title" id="recognizedTextBox">Recognized Text</h5>
-                  <p class="card-text" id="recognizedText">
-                    <!-- Extracted Text Displays Here -->
-                    그 렇 지만줄 곧 기 대 했 는 걸 .
-                  </p>
+                  <p class="card-text" id="recognizedText">Extracted Text Displays Here</p>
                 </div>
               </div>
 
-              <input type="button" class="actionButton" id="translateButton" onclick="" value="Translate">
+              <input type="button" class="buttons" id="translateButton" value="Translate">
 
             </div>
 
@@ -66,7 +63,7 @@
                   <p class="card-text" id="translatedText">Translated Text Displays Here</p>
                 </div>
             </div>
-            <button type="submit" onclick="refreshPage()" id="deleteButton">Restart</button>
+            <button type="button" class="buttons" id="deleteButton">Restart</button>
           </div>
       </div>
 
