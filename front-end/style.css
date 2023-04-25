@@ -45,3 +45,7 @@
     margin: 1% 1% 1% 1%;
     border: solid 0%;
 }
+.responsive{
+    width: 100%;
+    height: auto;
+}
