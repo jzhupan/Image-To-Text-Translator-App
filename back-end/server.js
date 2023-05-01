@@ -18,6 +18,7 @@ app.use("/upload", uploadController);
 const translateController = require("./controllers/translate.js");
 app.use("/translate", translateController);
 
+
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
