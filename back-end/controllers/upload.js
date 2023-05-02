@@ -28,7 +28,6 @@ router.post("/", upload.any(), function (req, res) {
     const displayText = output.data.text;
     //REMOVES WHITE SPACES AND LINE BREAKS, WAS USING .TRIM() BUT IT WAS NOT SUCCESSFUL AS USING REGEX (Regular Expression) something that matches a pattern
     const sanitizedText = displayText.replace(/(\r\n|\n|\r)/gm, "");
-    // console.log(sanitizedText)
 
     //CREATED A RESPONSE OBJECT WITH THE COGNIZED TEXT
     let textData = {
