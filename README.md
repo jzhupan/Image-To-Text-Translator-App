@@ -1,4 +1,4 @@
-# Webcomic Image Translator
+# Image-Text-Extraction-and-Translator
 
 This web application started with a hobby interest with a real life problem while learning how to use APIs and JavaScript. 
 
