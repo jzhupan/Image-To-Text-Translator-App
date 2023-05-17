@@ -4,7 +4,6 @@
 This application was inspired by a hobby- enjoying foreign comics without knowing the language. This is a tool that can also be used to translate any image with text you desire.
 
 
-<<<<<<< HEAD
 ## Resources Used
 
 [Tesseract.js](https://github.com/naptha/tesseract.js/blob/master/README.md)
@@ -17,6 +16,4 @@ This application was inspired by a hobby- enjoying foreign comics without knowin
 ## Web App Demo
 ![ImageTranslatorDemo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWIwMmIwZmFmMzgwZWM4MjRkZmY3MmQ5MzM5YWJiMDk5NzRlYTljNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3d1Z8kK9ap0h4sru3y/giphy.gif)
 
-=======
 Tesseract OCR library's supports other languages within its library besides the Korean language shown in the demo for text recognition, users can translate images with the free rapid google translate API's to any supported languages.
->>>>>>> dda396c (Updating Read me file.)
