@@ -34,4 +34,3 @@ How to use:
    c) Down to 'source' input box, should be the language of the text pasted.
    d) Click Test Endpoint to check that the settings are correct, the text will be translated under Results.
    e) Make sure on line 10 in the translate controller in the 'Back-end Folder' has the same information as your code Snippets (In this case, encodedParams.set for target and your X-RapidAPI-Key).
-3. Set up and replace the Bootstrap src links as well. (Feel free to style it as you desire).
