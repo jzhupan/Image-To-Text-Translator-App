@@ -21,9 +21,12 @@ Tesseract OCR library's supports other languages within its library besides the 
 How to use:
 
 1. Create an account with CropGuide, with this users will be able to crop the image targetting the text only, I used the 7 day free trial.
-   a) Create a domain name and the settings for the cropping size.  
-   b) Go to the dashboard and click details.
-   c) Copy the script code that includes your unique Key they provide and replace the existing expired code in the index.html file.
+  
+  a) Create a domain name and the settings for the cropping size.  
+   
+  b) Go to the dashboard and click details.
+   
+  c) Copy the script code that includes your unique Key they provide and replace the existing expired code in the index.html file.
 
 2. Create an account with RapidApi for the Google Translate Api, it's also free but it's limited to 500 characters per month.
    a) Go to Endpoints, select POST translate and go to Request Body to set up testing.
