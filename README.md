@@ -29,10 +29,16 @@ How to use:
    c) Copy the script code that includes your unique Key they provide and replace the existing expired code in the index.html file.
 
 2. Create an account with RapidApi for the Google Translate Api, it's also free but it's limited to 500 characters per month.
+   
    a) Go to Endpoints, select POST translate and go to Request Body to set up testing.
+   
    b) At the 'q' input box, place the text you want to translate, 'target' will be the language you desire to be translated to.
+   
    c) Down to 'source' input box, should be the language of the text pasted.
+   
    d) Click Test Endpoint to check that the settings are correct, the text will be translated under Results.
+   
    e) Make sure on line 10 in the translate controller in the 'Back-end Folder' has the same information as your code Snippets (In this case, encodedParams.set for target and your X-RapidAPI-Key).
+   
 3. Set up and replace the Bootstrap src links as well. (Feel free to style it as you desire).
 4. Test the app, follow the Demo.
