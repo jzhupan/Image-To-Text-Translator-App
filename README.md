@@ -41,4 +41,4 @@ How to use:
    e) Make sure on line 10 in the translate controller in the 'Back-end Folder' has the same information as your code Snippets (In this case, encodedParams.set for target and your X-RapidAPI-Key).
    
 3. Set up and replace the Bootstrap src links as well. (Feel free to style it as you desire).
-4. Test the app, follow the Demo.
+4. Open the index.html local file on your computer to run the app, follow the Demo.
