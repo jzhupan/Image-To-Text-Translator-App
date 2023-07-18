@@ -12,6 +12,12 @@ This project was inspired by a hobby of enjoying foreign comics without knowing 
 
 [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
+## Web App Demo
+
+![ImageTranslatorDemo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWIwMmIwZmFmMzgwZWM4MjRkZmY3MmQ5MzM5YWJiMDk5NzRlYTljNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3d1Z8kK9ap0h4sru3y/giphy.gif)
+
+Tesseract OCR library's supports other languages within its library besides the Korean language shown in the demo for text recognition, users can translate images with the free rapid google translate API's to any supported languages.
+
 ## Number of Supported Languages
 
 Tesseract.js: total of 101 Languages
@@ -60,12 +66,7 @@ List of complete Tesseract.js Supported Languages [HERE](https://tesseract-ocr.g
 
 List of complete Google Rapid API Supported Languages [HERE](https://rapidapi.com/googlecloud/api/google-translate1/details)
 
-## Web App Demo
-
-![ImageTranslatorDemo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWIwMmIwZmFmMzgwZWM4MjRkZmY3MmQ5MzM5YWJiMDk5NzRlYTljNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3d1Z8kK9ap0h4sru3y/giphy.gif)
-Tesseract OCR library's supports other languages within its library besides the Korean language shown in the demo for text recognition, users can translate images with the free rapid google translate API's to any supported languages.
-
-How to use:
+## How to use:
 
 1. Install Visual Studio Code and node.js.
 2. Create an account with CropGuide for free with a 7 days trial, users will be able to crop the uploaded image targetting the text only.
