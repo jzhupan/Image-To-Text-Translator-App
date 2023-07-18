@@ -20,43 +20,43 @@ Rapid Google API Translator: total of 104 Languages
 
 ## Languages Google might not support but Languages that Tesseract can extract text of:
 
-•Assamese
-•Tibetan
-•Cherokee
-•Dzongkha
-•Inuktitut
-•Oriya
-•Sanskrit
-•Syriac
-•Tigrinya
-•Uighur; Uyghur
+- Assamese
+- Tibetan
+- Cherokee
+- Dzongkha
+- Inuktitut
+- Oriya
+- Sanskrit
+- Syriac
+- Tigrinya
+- Uighur; Uyghur
 
 List of complete Tesseract.js Supported Languages [HERE](https://tesseract-ocr.github.io/tessdoc/Data-Files#data-files-for-version-400-november-29-2016)
 
 ## Languages that Tesseract.js does not support but Google API can translate:
 
-•Armenian
-•Corsican
-•Frisian
-•Hausa
-•Hawaiian
-•Hmong
-•Igbo
-•Luxembourgish
-•Malagasy
-•Maori
-•Mongolian
-•Nyanja(Chichewa)
-•Samoan
-•Scots Gaelic
-•Sesotho
-•Shona
-•Sindhi
-•Somali
-•Sundanese
-•Xhosa
-•Yoruba
-•Zulu
+- Armenian
+- Corsican
+- Frisian
+- Hausa
+- Hawaiian
+- Hmong
+- Igbo
+- Luxembourgish
+- Malagasy
+- Maori
+- Mongolian
+- Nyanja(Chichewa)
+- Samoan
+- Scots Gaelic
+- Sesotho
+- Shona
+- Sindhi
+- Somali
+- Sundanese
+- Xhosa
+- Yoruba
+- Zulu
 
 List of complete Google Rapid API Supported Languages [HERE](https://rapidapi.com/googlecloud/api/google-translate1/details)
 
