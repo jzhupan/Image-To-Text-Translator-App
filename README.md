@@ -13,10 +13,13 @@ This project was inspired by a hobby of enjoying foreign comics without knowing 
 [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 ## Number of Supported Languages
+
 Tesseract.js: total of 101 Languages
+
 Rapid Google API Translator: total of 104 Languages
 
 ## Languages Google might not support but Languages that Tesseract can extract text of:
+
 •Assamese
 •Tibetan
 •Cherokee
@@ -27,9 +30,11 @@ Rapid Google API Translator: total of 104 Languages
 •Syriac
 •Tigrinya
 •Uighur; Uyghur
+
 List of complete Tesseract.js Supported Languages [HERE](https://tesseract-ocr.github.io/tessdoc/Data-Files#data-files-for-version-400-november-29-2016)
 
 ## Languages that Tesseract.js does not support but Google API can translate:
+
 •Armenian
 •Corsican
 •Frisian
