@@ -1,6 +1,6 @@
-# Image Text Extractor and Translator
+# OCR and Translation App
 
-This application was inspired by a hobby- enjoying foreign comics without knowing the language. This is a tool that can also be used to translate any image with text you desire.
+This project was made while I was still learning JavaScript and it was inspired by a hobby of enjoying foreign comics without knowing the language. This is a tool that can also be used to translate any image you desire.
 
 ## Resources Used
 
