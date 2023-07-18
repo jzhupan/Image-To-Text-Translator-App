@@ -1,6 +1,6 @@
 # Image to Text Translator App
 
-This project was made while I was in my early JavaScript learning stage, inspired by a hobby of enjoying foreign comics without knowing the language. This is a tool that can also be used to translate any image you desire.
+This project was inspired by a hobby of enjoying foreign comics without knowing the language. This is a tool that can also be used to translate any image you desire, it includes all Tesseract OCR supported language library.
 
 ## Resources Used
 
@@ -11,6 +11,49 @@ This project was made while I was in my early JavaScript learning stage, inspire
 [CropGuide](https://crop.guide/)
 
 [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+## Number of Supported Languages
+Tesseract.js: total of 101 Languages
+Rapid Google API Translator: total of 104 Languages
+
+## Languages Google might not support but Languages that Tesseract can extract text of:
+•Assamese
+•Tibetan
+•Cherokee
+•Dzongkha
+•Inuktitut
+•Oriya
+•Sanskrit
+•Syriac
+•Tigrinya
+•Uighur; Uyghur
+List of complete Tesseract.js Supported Languages [HERE](https://tesseract-ocr.github.io/tessdoc/Data-Files#data-files-for-version-400-november-29-2016)
+
+## Languages that Tesseract.js does not support but Google API can translate:
+•Armenian
+•Corsican
+•Frisian
+•Hausa
+•Hawaiian
+•Hmong
+•Igbo
+•Luxembourgish
+•Malagasy
+•Maori
+•Mongolian
+•Nyanja(Chichewa)
+•Samoan
+•Scots Gaelic
+•Sesotho
+•Shona
+•Sindhi
+•Somali
+•Sundanese
+•Xhosa
+•Yoruba
+•Zulu
+
+List of complete Google Rapid API Supported Languages [HERE](https://rapidapi.com/googlecloud/api/google-translate1/details)
 
 ## Web App Demo
 
