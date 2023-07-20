@@ -6,7 +6,7 @@ This project was inspired by a hobby of enjoying foreign comics without knowing 
 
 [Tesseract.js](https://github.com/naptha/tesseract.js/blob/master/README.md)
 
-[Google Translate API](https://rapidapi.com/googlecloud/api/google-translate1)
+[Google Translate Rapid API](https://rapidapi.com/googlecloud/api/google-translate1)
 
 [CropGuide](https://crop.guide/)
 
