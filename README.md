@@ -24,7 +24,7 @@ Tesseract.js: total of 101 Languages
 
 Rapid Google API Translator: total of 104 Languages
 
-## Languages Google might not support but Languages that Tesseract can extract text of:
+## Languages Google might not support but Tesseract can extract text of:
 
 - Assamese
 - Tibetan
