@@ -39,7 +39,7 @@ Rapid Google API Translator: total of 104 Languages
 
 List of complete Tesseract.js Supported Languages [HERE](https://tesseract-ocr.github.io/tessdoc/Data-Files#data-files-for-version-400-november-29-2016)
 
-## Languages that Tesseract.js does not support but Google API can translate:
+## Languages that Tesseract.js does not support but Google API supports:
 
 - Armenian
 - Corsican
