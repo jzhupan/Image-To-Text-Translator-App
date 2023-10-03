@@ -1,6 +1,6 @@
 # Image to Text Translator App
 
-This project was inspired by a hobby of enjoying foreign comics without knowing the language. This is a tool that can also be used to translate any image you desire, it includes all Tesseract OCR supported language library.
+This project was inspired by a hobby of enjoying foreign comics with the issue of not able to enjoy it because of the language barrier. This is a tool that can also be used to translate any image you desire, it includes all Tesseract OCR supported language library.
 
 ## Resources Used
 
