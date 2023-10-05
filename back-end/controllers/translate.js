@@ -5,7 +5,13 @@ const router = express.Router();
 router.use(express.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 router.use(express.urlencoded({ extended: true }));
+
+require('dotenv').config();
+
 const axios = require("axios");
+const apiKey = (process.env.API_KEY)
+
+
 
 router.post("/", function (req, res) {
   //this is the Template from rapidAPI google translate API
@@ -15,23 +21,25 @@ router.post("/", function (req, res) {
   encodedParams.set("source", req.body.languageSource);
 
   const options = {
-    method: "POST",
-    url: "https://google-translate1.p.rapidapi.com/language/translate/v2",
+    method: 'POST',
+    url: 'https://google-translate1.p.rapidapi.com/language/translate/v2',
     headers: {
-      "content-type": "application/x-www-form-urlencoded",
-      "Accept-Encoding": "application/gzip",
-      "X-RapidAPI-Key": process.env.apiKey,
-      "X-RapidAPI-Host": "google-translate1.p.rapidapi.com",
+      'content-type': 'application/x-www-form-urlencoded',
+      'Accept-Encoding': 'application/gzip',
+      'X-RapidAPI-Key': apiKey,
+      'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
     },
     data: encodedParams,
   };
+
+
 
   async function translateText() {
     try {
       const response = await axios.request(options);
 
       let translatedText = response.data.data.translations[0].translatedText;
-
+      
       res.send({
         translatedText: translatedText,
       });

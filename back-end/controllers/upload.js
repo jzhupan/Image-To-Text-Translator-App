@@ -5,6 +5,7 @@ const multer = require("multer");
 //Tesseract middleware extracts the text from the image, which is also known as ocr (Optical Character Recognition) Library
 const T = require("tesseract.js");
 
+
 //Setting the multer storage
 const storage = multer.diskStorage({
   destination: "uploads/",
